@@ -52,7 +52,7 @@ const IndexPage = () => (
                     <FontAwesomeIcon icon={faLinkedin} />https://www.linkedin.com/in/yutonghe
                 </a>
             </section>
-            <p className="copyright">&copy; {new Date().getFullYear()} By Yutong (Daisy) He. Proudly created with Gatsby.</p>
+            <p className="copyright">&copy; {new Date().getFullYear()} By Yutong (Daisy) He.</p>
         </footer>
     </div>
 );

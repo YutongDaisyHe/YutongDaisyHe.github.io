@@ -1,0 +1,53 @@
+/** {*/
+/*    outline: 1px solid red;*/
+/*}*/
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
+
+.project-image {
+    align-items: center;
+    max-width: 300px;
+    max-height: 500px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.project-content {
+    flex: 1;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.project-details {
+    padding-left: 20px;
+}
+
+.project-details ul {
+    list-style: disc;
+    padding-left: 20px;
+}

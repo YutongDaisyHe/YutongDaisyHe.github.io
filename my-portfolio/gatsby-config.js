@@ -9,5 +9,18 @@
  */
 module.exports = {
   pathPrefix: "/my-portfolio",
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Roboto\:400,700`,
+          `Poppins\:400,700`, // Add Poppins for a similar look
+        ],
+        display: 'swap',
+      },
+    },
+    `gatsby-plugin-sass`,
+  ],
 }
