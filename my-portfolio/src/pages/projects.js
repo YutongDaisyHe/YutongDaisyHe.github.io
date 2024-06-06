@@ -1,6 +1,7 @@
+
 import React from 'react';
-import '../styles/projects.css';
 import Layout from "../components/Layout";
+import '../styles/projects.css';
 import goalForItImage from '../../static/goalforit.png';
 import recipeFridgeImage from '../../static/recipefridge.png';
 import socialMediaAppImage from '../../static/socialmediaapp.png';
@@ -11,6 +12,7 @@ const ProjectsPage = () => (
         <div className="container">
             <h2 className="fw-bolder align-content-center">Projects</h2>
 
+            {/* Project 1 */}
             <div className="project">
                 <div className="project-image-container">
                     <a href="https://www.figma.com/proto/Sox6tCyPBSJjXxhzPmr74n/GoalForIt-Screens?node-id=0-1&t=3mUINjYc9IwIWii7-1">
@@ -39,13 +41,19 @@ const ProjectsPage = () => (
                             </ul>
                         </div>
                     </div>
+                    <div className="project-skills">
+                        <div className="skill">Java</div>
+                        <div className="skill">Android Studio</div>
+                        <div className="skill">Firebase</div>
+                    </div>
                 </div>
             </div>
 
+            {/* Project 2 */}
             <div className="project">
                 <div className="project-image-container">
                     <a href="https://www.figma.com/design/fyKyA9QHn4sHC9sBNLozu2/Saved_Recipe_Page?m=dev&node-id=0-1&t=9dOlr2tyrykdfRjN-1">
-                        <img src={recipeFridgeImage} alt="RecipeFridge App Screenshot" className="project-image"/>
+                        <img src={recipeFridgeImage} alt="RecipeFridge App Screenshot" className="project-image" />
                     </a>
                 </div>
                 <div className="project-content">
@@ -70,9 +78,17 @@ const ProjectsPage = () => (
                             </ul>
                         </div>
                     </div>
+                    <div className="project-skills">
+                        <div className="skill">Java</div>
+                        <div className="skill">JavaScript</div>
+                        <div className="skill">React</div>
+                        <div className="skill">Node.js</div>
+                        <div className="skill">MongoDB</div>
+                    </div>
                 </div>
             </div>
 
+            {/* Project 3 */}
             <div className="project">
                 <div className="project-image-container">
                     <a href="https://www.figma.com/design/9wN6DXE1LK0BDdJolSzKrn/FSEG6-Tuiter_Wireframe?m=dev&node-id=0-1&t=W37DtVJi6WrBqVAK-1">
@@ -89,27 +105,27 @@ const ProjectsPage = () => (
                     <div className="project-details">
                         <span>Team Leadership & Agile Management:</span>
                         <ul>
-                            <li>Led a team in adhering to Scrum Agile methodologies to integrate a
-                                customer-restaurant feature into a social media platform.
-                            </li>
+                            <li>Led a team in adhering to Scrum Agile methodologies to integrate a customer-restaurant feature into a social media platform.</li>
                         </ul>
                         <span>Back-end Development:</span>
                         <ul>
-                            <li>Crafted and deployed user authentication systems for different user
-                                types.
-                            </li>
-                            <li>Implemented and rigorously tested RESTful Web Services for data
-                                management.
-                            </li>
+                            <li>Crafted and deployed user authentication systems for different user types.</li>
+                            <li>Implemented and rigorously tested RESTful Web Services for data management.</li>
                         </ul>
+                    </div>
+                    <div className="project-skills">
+                        <div className="skill">Jira</div>
+                        <div className="skill">Agile Scrum</div>
+                        <div className="skill">Node.js</div>
+                        <div className="skill">TypeScript</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
+            {/* Project 4 */}
             <div className="project">
                 <div className="project-image-container">
-                        <img src={nlpProjectImage} alt="NLP Project Screenshot"
-                             className="project-image"/>
+                    <img src={nlpProjectImage} alt="NLP Project Screenshot" className="project-image" />
                 </div>
                 <div className="project-content">
                     <div className="project-header">
@@ -123,8 +139,14 @@ const ProjectsPage = () => (
                             <li>Collaborated on developing a bibliography parsing tool using ensemble learning, which combines regular expression parsing with machine learning algorithms to significantly enhance accuracy.</li>
                         </ul>
                     </div>
+                    <div className="project-skills">
+                        <div className="skill">Python</div>
+                        <div className="skill">Regular Expression</div>
+                        <div className="skill">Machine Learning</div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </Layout>
 );
