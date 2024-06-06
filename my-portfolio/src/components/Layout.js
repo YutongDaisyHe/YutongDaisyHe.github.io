@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Container = styled.div`
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   text-align: left;
@@ -10,7 +11,9 @@ const Container = styled.div`
 
 const Layout = ({ children }) => (
     <Container>
+        <Navbar/>
         {children}
+        <Footer/>
     </Container>
 )
 
