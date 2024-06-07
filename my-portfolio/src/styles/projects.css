@@ -8,7 +8,7 @@
 
 .project {
     display: flex;
-    align-items: flex-start;
+    align-items: center; /* Center vertically */
     justify-content: flex-start;
     margin-bottom: 40px;
     padding: 20px;
@@ -62,6 +62,8 @@
 .project-image-container {
     width: 200px; /* Adjust image container width as needed */
     margin-right: 20px; /* Space between image and text */
+    display: flex;
+    align-items: center; /* Center image vertically */
 }
 
 .project-image {
