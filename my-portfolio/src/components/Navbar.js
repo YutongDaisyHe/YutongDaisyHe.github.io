@@ -5,7 +5,7 @@ const Navbar = () => (
     <header>
         <Link to="/"><h1>Yutong (Daisy) He</h1></Link>
         <nav className="navbar">
-            <Link to="/about">About Me</Link>
+            <Link to="/about">About</Link>
             {/*<Link to="/">Home</Link>*/}
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
             <Link to="/projects">Projects</Link>
