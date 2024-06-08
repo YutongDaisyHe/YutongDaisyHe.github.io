@@ -39,6 +39,8 @@ import tr8 from '../../static/tuiterRestaurant/tr_8.png';
 import tr9 from '../../static/tuiterRestaurant/tr_9.png';
 import tr10 from '../../static/tuiterRestaurant/tr_10.png';
 import tr11 from '../../static/tuiterRestaurant/tr_11.png';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
 const rfimages = [rf1, rf2, rf3, rf4, rf5, rf6, rf7, rf8, rf9, rf10, rf11, rf12];
 const gfimages = [gf1, gf2, gf3, gf4, gf5, gf6, gf7, gf8];
@@ -67,18 +69,33 @@ const ProjectsPage = () => (
                     <div>
                         <span>Course Project, Northeastern University January 2023 – April 2023</span>
                     </div>
+                    <div>
+                        <a href="https://github.com/YutongDaisyHe/CS5520_GoalsTrackingApp"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGithub} size="1x"
+                                             className="project-github-icon pe-1"/>
+                            https://github.com/YutongDaisyHe/CS5520_GoalsTrackingApp
+                        </a>
+                    </div>
                     <div className="project-details">
                         <div>
                             <span>Front-end Development:</span>
                             <ul>
-                                <li>Designed and implemented intuitive user interfaces for various screens.</li>
+                                <li>Designed and implemented intuitive user interfaces for various
+                                    screens.
+                                </li>
                             </ul>
                         </div>
                         <div>
                             <span>Back-end Development:</span>
                             <ul>
-                                <li>Utilized Firebase real-time database to establish seamless data connectivity among users and messages.</li>
-                                <li>Implemented essential app features such as profile editing, friend management, and notification messaging.</li>
+                                <li>Utilized Firebase real-time database to establish seamless data
+                                    connectivity among users and messages.
+                                </li>
+                                <li>Implemented essential app features such as profile editing,
+                                    friend management, and notification messaging.
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -96,7 +113,8 @@ const ProjectsPage = () => (
                     <Carousel showThumbs={false} className="carousel-slider">
                         {rfimages.map((src, index) => (
                             <div key={index} className="slide">
-                                <img src={src} alt={`RecipeFridge Screenshot ${index + 1}`} className="project-image" />
+                                <img src={src} alt={`RecipeFridge Screenshot ${index + 1}`}
+                                     className="project-image" />
                             </div>
                         ))}
                     </Carousel>
@@ -107,6 +125,24 @@ const ProjectsPage = () => (
                     </div>
                     <div>
                         <span>Course Project, Northeastern University October 2022 – December 2022</span>
+                    </div>
+                    <div>
+                        <a href="https://github.com/YutongDaisyHe/CS5610_FridgeRecipeWebProject_React"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGithub} size="1x"
+                                             className="project-github-icon pe-1"/>
+                            https://github.com/YutongDaisyHe/CS5610_FridgeRecipeWebProject_React
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/YutongDaisyHe/CS5610_FridgeRecipeWebProject_Node"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGithub} size="1x"
+                                             className="project-github-icon pe-1"/>
+                            https://github.com/YutongDaisyHe/CS5610_FridgeRecipeWebProject_Node
+                        </a>
                     </div>
                     <div className="project-details">
                         <div>
@@ -145,7 +181,8 @@ const ProjectsPage = () => (
                     <Carousel showThumbs={false} className="carousel-slider">
                         {trimages.map((src, index) => (
                             <div key={index} className="slide">
-                                <img src={src} alt={`GoalForIt Screenshot ${index + 1}`} className="project-image" />
+                                <img src={src} alt={`TuiterRestaurant Screenshot ${index + 1}`}
+                                     className="project-image"/>
                             </div>
                         ))}
                     </Carousel>
@@ -157,15 +194,39 @@ const ProjectsPage = () => (
                     <div>
                         <span>Course Project, Northeastern University October 2022 – December 2022</span>
                     </div>
+                    <div>
+                        <a href="https://github.com/YutongDaisyHe/CS5500_FinalProject_React"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGithub} size="1x"
+                                             className="project-github-icon pe-1"/>
+                            https://github.com/YutongDaisyHe/CS5500_FinalProject_React
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/YutongDaisyHe/CS5500_FinalProject_Node"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGithub} size="1x"
+                                             className="project-github-icon pe-1"/>
+                            https://github.com/YutongDaisyHe/CS5500_FinalProject_Node
+                        </a>
+                    </div>
                     <div className="project-details">
                         <span>Team Leadership & Agile Management:</span>
                         <ul>
-                            <li>Led a team in adhering to Scrum Agile methodologies to integrate a customer-restaurant feature into a social media platform.</li>
+                            <li>Led a team in adhering to Scrum Agile methodologies to integrate a
+                                customer-restaurant feature into a social media platform.
+                            </li>
                         </ul>
                         <span>Back-end Development:</span>
                         <ul>
-                            <li>Crafted and deployed user authentication systems for different user types.</li>
-                            <li>Implemented and rigorously tested RESTful Web Services for data management.</li>
+                            <li>Crafted and deployed user authentication systems for different user
+                                types.
+                            </li>
+                            <li>Implemented and rigorously tested RESTful Web Services for data
+                                management.
+                            </li>
                         </ul>
                     </div>
                     <div className="project-skills">
@@ -182,7 +243,8 @@ const ProjectsPage = () => (
                 <div className="project-image-container">
                     <Carousel showThumbs={false} showStatus={false}>
                         <div>
-                            <img src={nlpProjectImage} alt="NLP Project Screenshot" className="project-image" />
+                            <img src={nlpProjectImage} alt="NLP Project Screenshot"
+                                 className="project-image"/>
                         </div>
 
                     </Carousel>

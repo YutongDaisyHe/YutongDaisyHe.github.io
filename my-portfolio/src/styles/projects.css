@@ -68,7 +68,8 @@
 }
 
 .project-image {
-    max-width: 100%;
+    /*max-width: 100%;*/
+    max-width: 500px;
     height: auto;
     border-radius: 8px;
 }
@@ -88,4 +89,9 @@
 .carousel .carousel-slider {
     max-width: 500px; /* Adjust the width as needed */
     margin: 0 auto;
+}
+
+.project-content a {
+    color: #333;
+    font-size: small;
 }

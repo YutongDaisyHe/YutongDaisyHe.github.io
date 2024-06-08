@@ -1,0 +1,62 @@
+.container {
+    margin-top: 20px;
+}
+
+.teaching-card {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #F2EFE9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.teaching-content {
+    flex: 1;
+    margin-left: 20px; /* Space between image and text */
+}
+
+.teaching-header h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.teaching-header span {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.teaching-details {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.teaching-details h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.teaching-details ul {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.teaching-image-container {
+    width: 200px; /* Adjust image container width as needed */
+    margin-right: 20px; /* Space between image and text */
+    display: flex;
+    align-items: center; /* Center image vertically */
+}
+
+.teaching-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
