@@ -45,7 +45,9 @@ h2 {
 .contact-item a:hover {
     text-decoration: underline;
 }
-
+.contact-item:hover {
+    background-color: whitesmoke;
+}
 .contact-item .fa-envelope,
 .contact-item .fa-linkedin {
     margin-right: 8px;

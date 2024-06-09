@@ -95,3 +95,7 @@
     color: #333;
     font-size: small;
 }
+
+.project:hover {
+    background-color: whitesmoke;
+}

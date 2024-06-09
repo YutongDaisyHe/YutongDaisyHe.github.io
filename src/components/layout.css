@@ -67,7 +67,7 @@ main {
 }
 
 .portrait-img {
-    height: 300px;
+    height: auto;
     width: 300px;
     border-radius: 300px;
 }
@@ -75,7 +75,7 @@ main {
 .about-me {
     flex: 2;
     text-align: left;
-    font-size: larger;
+    font-size: large;
 }
 
 .about-header {
@@ -109,10 +109,15 @@ footer .contact a {
 }
 
 footer .contact a:hover {
-    color: #007bff; /* Darker blue on hover */
+    color: lightseagreen; /* Darker blue on hover */
 }
 
 footer .copyright {
     padding: 8px;
     font-size: smaller;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
 }
