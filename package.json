@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/YutongDaisyHe/YutongDaisyHe.github.io/issues"
   },
-  "homepage": "https://YutongDaisyHe.github.io/YutongDaisyHe.github.io",
+  "homepage": "https://YutongDaisyHe.github.io",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
