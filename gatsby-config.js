@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: "/my-portfolio",
+  pathPrefix: "/",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
