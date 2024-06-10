@@ -67,8 +67,8 @@ main {
 }
 
 .portrait-img {
-    height: auto;
-    width: 300px;
+    max-height: 300px;
+    max-width: 300px;
     border-radius: 300px;
 }
 
@@ -120,4 +120,21 @@ footer .copyright {
 .navbar {
     display: flex;
     gap: 20px;
+}
+
+/* Styles for tablets and larger phones */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Styles for phones */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        gap: 5px;
+    }
+
 }

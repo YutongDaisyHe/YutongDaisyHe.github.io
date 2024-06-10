@@ -52,8 +52,8 @@ const ProjectsPage = () => (
             <h2 className="fw-bolder align-content-center p-2">Projects</h2>
 
             {/* Project 1 */}
-            <div className="project">
-                <div className="project-image-container">
+            <div className="row col-12 project">
+                <div className="col-12 col-md-6 project-image-container">
                     <Carousel showThumbs={false} className="carousel-slider">
                         {gfimages.map((src, index) => (
                             <div key={index} className="slide">
@@ -62,7 +62,7 @@ const ProjectsPage = () => (
                         ))}
                     </Carousel>
                 </div>
-                <div className="project-content">
+                <div className="col-12 col-md-6 project-content">
                     <div className="project-header">
                         <span>GoalForIt! Goals Tracking and Habits Building Mobile App</span>
                     </div>
@@ -108,8 +108,8 @@ const ProjectsPage = () => (
             </div>
 
             {/* Project 2 */}
-            <div className="project">
-                <div className="project-image-container">
+            <div className="row project">
+                <div className="col-12 col-md-6 project-image-container">
                     <Carousel showThumbs={false} className="carousel-slider">
                         {rfimages.map((src, index) => (
                             <div key={index} className="slide">
@@ -119,7 +119,7 @@ const ProjectsPage = () => (
                         ))}
                     </Carousel>
                 </div>
-                <div className="project-content">
+                <div className="col-12 col-md-6 project-content">
                     <div className="project-header">
                         <span>RecipeFridge Recipe Creating and Searching Web App</span>
                     </div>
@@ -176,8 +176,8 @@ const ProjectsPage = () => (
             </div>
 
             {/* Project 3 */}
-            <div className="project">
-                <div className="project-image-container">
+            <div className="row project">
+                <div className="col-12 col-md-6 project-image-container">
                     <Carousel showThumbs={false} className="carousel-slider">
                         {trimages.map((src, index) => (
                             <div key={index} className="slide">
@@ -187,7 +187,7 @@ const ProjectsPage = () => (
                         ))}
                     </Carousel>
                 </div>
-                <div className="project-content">
+                <div className="col-12 col-md-6 project-content">
                     <div className="project-header">
                         <span>Integrating a Customer-Restaurant Interaction Module to A Social Media Web App</span>
                     </div>
@@ -239,8 +239,8 @@ const ProjectsPage = () => (
             </div>
 
             {/* Project 4 */}
-            <div className="project">
-                <div className="project-image-container">
+            <div className="row project">
+                <div className="col-12 col-md-6 project-image-container">
                     <Carousel showThumbs={false} showStatus={false}>
                         <div>
                             <img src={nlpProjectImage} alt="NLP Project Screenshot"
@@ -249,7 +249,7 @@ const ProjectsPage = () => (
 
                     </Carousel>
                 </div>
-                <div className="project-content">
+                <div className="col-12 col-md-6 project-content">
                     <div className="project-header">
                         <span>Using NLP/Machine Learning for Bibliography Parsing</span>
                     </div>

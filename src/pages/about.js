@@ -13,11 +13,11 @@ const About = () => (
     <Layout>
         <div className="layout">
             <main>
-                <section className="about">
-                    <div className="portrait">
+                <section className="row col-12 about">
+                    <div className="col-12 col-md-6 portrait">
                         <img src="/portrait.jpeg" alt="My Portrait" className="portrait-img"/>
                     </div>
-                    <div className="about-me">
+                    <div className="col-12 col-md-6 about-me">
                         <h2 className="about-header">Hi, I'm Yutong.</h2>
                         <p className="justified-text">
                             I am currently pursuing a Master of Science in Computer Science at

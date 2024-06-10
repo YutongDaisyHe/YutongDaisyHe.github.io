@@ -7,8 +7,8 @@ import '../styles/contact.css';
 
 const Contact = () => (
     <Layout>
-        <div className="layout">
-            <div className="contact-container">
+        <div className="row layout">
+            <div className="col-12 col-md-6 contact-container">
                 <h2 className="fw-bolder align-content-center p-2">Contact Me</h2>
                 <div className="contact-info">
                     <div className="contact-item">
