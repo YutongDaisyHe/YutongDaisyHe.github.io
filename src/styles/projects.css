@@ -1,6 +1,6 @@
-/** {*/
-/*    outline: 1px solid red;*/
-/*}*/
+* {
+    outline: none;
+}
 
 .container {
     margin-top: 20px;
