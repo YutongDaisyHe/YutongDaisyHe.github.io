@@ -6,6 +6,14 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import nlpProjectImage from '../../static/nlp_project.png';
 
 // Import all images from the directory
+import gpt1 from '../../static/gptRecipe/gpt_2.png';
+import gpt2 from '../../static/gptRecipe/gpt_2.png';
+import gpt3 from '../../static/gptRecipe/gpt_3.png';
+import gpt4 from '../../static/gptRecipe/gpt_4.png';
+import gpt5 from '../../static/gptRecipe/gpt_5.png';
+import gpt6 from '../../static/gptRecipe/gpt_6.png';
+import gpt7 from '../../static/gptRecipe/gpt_7.png';
+
 import rf1 from '../../static/recipeFridge/rf_1.png';
 import rf2 from '../../static/recipeFridge/rf_2.png';
 import rf3 from '../../static/recipeFridge/rf_3.png';
@@ -42,6 +50,9 @@ import tr11 from '../../static/tuiterRestaurant/tr_11.png';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
+// const gptimages = [gpt1, gpt2, gpt3, gpt4, gpt5, gpt6, gpt7];
+const gptimages = [gpt2];
+
 const rfimages = [rf1, rf2, rf3, rf4, rf5, rf6, rf7, rf8, rf9, rf10, rf11, rf12];
 const gfimages = [gf1, gf2, gf3, gf4, gf5, gf6, gf7, gf8];
 const trimages = [tr1, tr2, tr3, tr4, tr5, tr6, tr7, tr8, tr9, tr10, tr11];
@@ -55,6 +66,67 @@ const ProjectsPage = () => (
             <div className="row col-12 project">
                 <div className="col-12 col-md-6 project-image-container">
                     <Carousel showThumbs={false} className="carousel-slider">
+                        {gptimages.map((src, index) => (
+                            <div key={index} className="slide">
+                                <img src={src} alt={`GPT-Recipe Screenshot ${index + 1}`} className="project-image" />
+                            </div>
+                        ))}
+                    </Carousel>
+
+                </div>
+                <div className="col-12 col-md-6 project-content">
+                    <div className="project-header">
+                        <span>GPT-Recipe Multi-Agent Application</span>
+                    </div>
+                    <div>
+                        <span>Personal Project, May 2024 – July 2024</span>
+                    </div>
+                    <div>
+                        <a href="https://github.com/YutongDaisyHe/GPT-Recipe"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGithub} size="1x"
+                                             className="project-github-icon pe-1"/>
+                            https://github.com/YutongDaisyHe/GPT-Recipe
+                        </a>
+                    </div>
+                    <div className="project-details">
+                        <div>
+                            <span>Front-end Development:</span>
+                            <ul>
+                                <li>Designed a user-friendly interface for inputting preferences
+                                    and ensured high-quality, visually appealing recipe layouts.
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <span>Back-end Development:</span>
+                            <ul>
+                                <li>Developed an innovative multi-agent application using
+                                    OpenAI API, Tavily API, and LangGraph framework to create
+                                    personalized recipe books tailored to user preferences.
+                                </li>
+                                <li>Implemented distinct AI agents for searching, curating,
+                                    writing, critiquing, designing, editing, and publishing recipes.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="project-skills">
+                        <div className="skill">Python</div>
+                        <div className="skill">JavaScript</div>
+                        <div className="skill">HTML/CSS</div>
+                        <div className="skill">LangGraph</div>
+                        <div className="skill">OpenAI API</div>
+                        <div className="skill">Tavily API</div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Project 2 */}
+            <div className="row col-12 project">
+                <div className="col-12 col-md-6 project-image-container">
+                    <Carousel showThumbs={false} className="carousel-slider">
                         {gfimages.map((src, index) => (
                             <div key={index} className="slide">
                                 <img src={src} alt={`GoalForIt Screenshot ${index + 1}`} className="project-image" />
@@ -64,10 +136,10 @@ const ProjectsPage = () => (
                 </div>
                 <div className="col-12 col-md-6 project-content">
                     <div className="project-header">
-                        <span>GoalForIt! Goals Tracking and Habits Building Mobile App</span>
+                        <span>GoalForIt! Goals Tracking and Habits Building Mobile Application</span>
                     </div>
                     <div>
-                        <span>Course Project, Northeastern University January 2023 – April 2023</span>
+                        <span>Course Project, Northeastern University, January 2023 – April 2023</span>
                     </div>
                     <div>
                         <a href="https://github.com/YutongDaisyHe/CS5520_GoalsTrackingApp"
@@ -121,10 +193,10 @@ const ProjectsPage = () => (
                 </div>
                 <div className="col-12 col-md-6 project-content">
                     <div className="project-header">
-                        <span>RecipeFridge Recipe Creating and Searching Web App</span>
+                        <span>RecipeFridge Recipe Creating and Searching Web Application</span>
                     </div>
                     <div>
-                        <span>Course Project, Northeastern University October 2022 – December 2022</span>
+                        <span>Course Project, Northeastern University, October 2022 – December 2022</span>
                     </div>
                     <div>
                         <a href="https://github.com/YutongDaisyHe/CS5610_FridgeRecipeWebProject_React"
@@ -189,10 +261,10 @@ const ProjectsPage = () => (
                 </div>
                 <div className="col-12 col-md-6 project-content">
                     <div className="project-header">
-                        <span>Integrating a Customer-Restaurant Interaction Module to A Social Media Web App</span>
+                        <span>Integrating a Customer-Restaurant Interaction Module to A Social Media Web Application</span>
                     </div>
                     <div>
-                        <span>Course Project, Northeastern University October 2022 – December 2022</span>
+                        <span>Course Project, Northeastern University, October 2022 – December 2022</span>
                     </div>
                     <div>
                         <a href="https://github.com/YutongDaisyHe/CS5500_FinalProject_React"
@@ -254,7 +326,7 @@ const ProjectsPage = () => (
                         <span>Using NLP/Machine Learning for Bibliography Parsing</span>
                     </div>
                     <div>
-                        <span>XN Rising Project, Northeastern University & Pfizer January 2022 – April 2022</span>
+                        <span>XN Rising Project, Northeastern University & Pfizer, January 2022 – April 2022</span>
                     </div>
                     <div className="project-details">
                         <ul>
