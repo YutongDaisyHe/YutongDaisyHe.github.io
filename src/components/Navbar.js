@@ -47,7 +47,7 @@ const Navbar = () => {
                     About
                 </NavLink>
                 <a
-                    href="/resume.pdf"
+                    href="/YutongHe_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="navbar-link"
