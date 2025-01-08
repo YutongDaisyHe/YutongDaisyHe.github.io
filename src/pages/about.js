@@ -21,17 +21,14 @@ const About = () => (
                         <h2 className="about-header">Hi, I'm Yutong.</h2>
                         <p className="justified-text">
                             I am currently pursuing a Master of Science in Computer Science at
-                            Northeastern
-                            University.
+                            Northeastern University.
                         </p>
                         <p className="justified-text">
-                            I have practical experience with Java, Python, C, JavaScript,
-                            TypeScript,
-                            and R. My expertise includes working with databases such as MySQL,
-                            MongoDB,
-                            and Firebase, and developing full-stack applications using React.js and
-                            Node.js. I am proficient in object-oriented design, Agile methodologies,
-                            and version control with Git.
+                            I have practical experience with Java, Python, SQL, JavaScript,
+                            TypeScript, C, and R. My expertise includes working with databases such
+                            as PostgreSQL, MySQL, MongoDB, and Firebase, and developing full-stack applications
+                            using React.js and Node.js. I am proficient in object-oriented design,
+                            Agile methodologies, and version control with Git.
                         </p>
                         <p className="justified-text">
                             As a former public school teacher in New York, I developed
