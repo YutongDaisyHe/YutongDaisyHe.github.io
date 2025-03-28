@@ -18,29 +18,18 @@ const About = () => (
                         <img src="/portrait.jpeg" alt="My Portrait" className="portrait-img"/>
                     </div>
                     <div className="col-12 col-md-6 about-me">
-                        <h2 className="about-header">Hi, I'm Yutong.</h2>
+                        <h2 className="about-header">Hi, I'm Yutong (Daisy).</h2>
                         <p className="justified-text">
-                            I am currently pursuing a Master of Science in Computer Science at
-                            Northeastern University.
+                            I’m a software engineer with a diverse background in education and technology, currently pursuing a Master of Science in Computer Science at Northeastern University.
                         </p>
                         <p className="justified-text">
-                            I have practical experience with Java, Python, SQL, JavaScript,
-                            TypeScript, C, and R. My expertise includes working with databases such
-                            as PostgreSQL, MySQL, MongoDB, and Firebase, and developing full-stack web
-                            and mobile applications. I am proficient in object-oriented design,
-                            Agile methodologies, and version control with Git.
+                            I have hands-on experience with Java, Python, SQL, JavaScript, TypeScript, C, and R. I’ve worked with both SQL and NoSQL databases, including PostgreSQL, MySQL, and MongoDB, and have built full-stack web and mobile applications. I'm an AWS Certified Cloud Practitioner with experience deploying microservices, working with containerized environments, and implementing CI/CD pipelines. I’m also proficient in object-oriented design, Agile methodologies, and version control with Git.
                         </p>
                         <p className="justified-text">
-                            As a former public school teacher in New York, I developed
-                            strong communication, leadership, and organizational skills.
-                            My ability to learn new techniques, adapt to challenges, and empathize
-                            with others has been instrumental in my achievements in both teaching
-                            and my ongoing journey in computer science.
+                            Previously, I was a tenured public school teacher in New York, where I founded and expanded a Mandarin program for grades 6–12. That experience sharpened my leadership, organization, and communication skills—strengths I now bring to engineering teams.
                         </p>
                         <p className="justified-text">
-                            I am eager to leverage my teaching experience and technical skills in
-                            software engineering roles, contributing effectively to innovative
-                            projects and dynamic teams.
+                            I’m passionate about solving real-world problems through clean, thoughtful code and excited to contribute to innovative projects across industries—from cloud infrastructure to AI-powered tools.
                         </p>
                     </div>
                 </section>
