@@ -27,9 +27,9 @@ const Navbar = () => {
                 <NavLink to="/projects" activeStyles={activeStyles}>
                     Projects
                 </NavLink>
-                <NavLink to="/teaching" activeStyles={activeStyles}>
-                    Teaching
-                </NavLink>
+                {/*<NavLink to="/teaching" activeStyles={activeStyles}>*/}
+                {/*    Teaching*/}
+                {/*</NavLink>*/}
                 <NavLink to="/contact" activeStyles={activeStyles}>
                     Contact
                 </NavLink>
