@@ -6,6 +6,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import nlpProjectImage from '../../static/nlp_project.png';
 
 // Import all images from the directory
+import se1 from '../../static/scienceExplorer/se_1.png'
+
 import gpt1 from '../../static/gptRecipe/gpt_2.png';
 import gpt2 from '../../static/gptRecipe/gpt_2.png';
 import gpt3 from '../../static/gptRecipe/gpt_3.png';
@@ -49,7 +51,9 @@ import tr10 from '../../static/tuiterRestaurant/tr_10.png';
 import tr11 from '../../static/tuiterRestaurant/tr_11.png';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 
+const seimages = [se1];
 // const gptimages = [gpt1, gpt2, gpt3, gpt4, gpt5, gpt6, gpt7];
 const gptimages = [gpt2];
 
@@ -62,7 +66,61 @@ const ProjectsPage = () => (
         <div className="container">
             <h2 className="fw-bolder align-content-center p-2">Projects</h2>
 
-            {/* Project 1 */}
+            {/* Project 6 */}
+            <div className="row col-12 project">
+                <div className="col-12 col-md-6 project-image-container">
+                    <Carousel showThumbs={false} className="carousel-slider">
+                        {seimages.map((src, index) => (
+                            <div key={index} className="slide">
+                                <img src={src} alt={`Science Explorer Screenshot ${index + 1}`} className="project-image" />
+                            </div>
+                        ))}
+                    </Carousel>
+                </div>
+                <div className="col-12 col-md-6 project-content">
+                    <div className="project-header">
+                        <span>Science Explorer Drupal Web Portal</span>
+                    </div>
+                    <div>
+                        <span>Personal Project, March 2025 – April 2025</span>
+                    </div>
+                    <div>
+                        <a href="https://live-science-explorer-for-all.pantheonsite.io/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faExternalLinkAlt} size="1x" className="project-github-icon pe-1"/>
+                            https://live-science-explorer-for-all.pantheonsite.io/
+                        </a>
+                    </div>
+                    <div className="project-details">
+                        <div>
+                            <span>Front-end Development:</span>
+                            <ul>
+                                <li>Designed and styled a responsive hero landing page using CSS and Drupal Layout Builder.</li>
+                                <li>Customized views, menus, and block layouts to ensure an intuitive user experience.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <span>Back-end & CMS Integration:</span>
+                            <ul>
+                                <li>Developed a custom Drupal module for dynamic content presentation and display filtering.</li>
+                                <li>Enabled image/video upload and media-rich layout support to showcase science activities.</li>
+                                <li>Configured automated deployment with Git and Pantheon, and integrated Google Analytics.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="project-skills">
+                        <div className="skill">Drupal 11</div>
+                        <div className="skill">PHP</div>
+                        <div className="skill">CSS</div>
+                        <div className="skill">Git</div>
+                        <div className="skill">Pantheon</div>
+                        <div className="skill">Google Analytics</div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Project 5 */}
             <div className="row col-12 project">
                 <div className="col-12 col-md-6 project-image-container">
                     <Carousel showThumbs={false} className="carousel-slider">
@@ -123,7 +181,7 @@ const ProjectsPage = () => (
                 </div>
             </div>
 
-            {/* Project 2 */}
+            {/* Project 4 */}
             <div className="row col-12 project">
                 <div className="col-12 col-md-6 project-image-container">
                     <Carousel showThumbs={false} className="carousel-slider">
@@ -179,7 +237,7 @@ const ProjectsPage = () => (
                 </div>
             </div>
 
-            {/* Project 2 */}
+            {/* Project 3 */}
             <div className="row project">
                 <div className="col-12 col-md-6 project-image-container">
                     <Carousel showThumbs={false} className="carousel-slider">
@@ -247,7 +305,7 @@ const ProjectsPage = () => (
                 </div>
             </div>
 
-            {/* Project 3 */}
+            {/* Project 2 */}
             <div className="row project">
                 <div className="col-12 col-md-6 project-image-container">
                     <Carousel showThumbs={false} className="carousel-slider">
@@ -310,7 +368,7 @@ const ProjectsPage = () => (
                 </div>
             </div>
 
-            {/* Project 4 */}
+            {/* Project 1 */}
             <div className="row project">
                 <div className="col-12 col-md-6 project-image-container">
                     <Carousel showThumbs={false} showStatus={false}>
