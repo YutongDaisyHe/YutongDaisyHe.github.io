@@ -96,16 +96,16 @@ const ProjectsPage = () => (
                         <div>
                             <span>Front-end Development:</span>
                             <ul>
-                                <li>Designed and styled a responsive hero landing page using CSS and Drupal Layout Builder.</li>
+                                <li>Built a responsive landing page and intuitive navigation using Drupal Layout Builder and CSS.</li>
                                 <li>Customized views, menus, and block layouts to ensure an intuitive user experience.</li>
                             </ul>
                         </div>
                         <div>
                             <span>Back-end & CMS Integration:</span>
                             <ul>
-                                <li>Developed a custom Drupal module for dynamic content presentation and display filtering.</li>
-                                <li>Enabled image/video upload and media-rich layout support to showcase science activities.</li>
-                                <li>Configured automated deployment with Git and Pantheon, and integrated Google Analytics.</li>
+                                <li>Developed a custom Drupal module to dynamically filter and display science activity content.</li>
+                                <li>Supported media-rich layouts for images, videos, and PDFs.</li>
+                                <li>Integrated Git-based deployment on Pantheon and connected Google Analytics for site insights.</li>
                             </ul>
                         </div>
                     </div>
