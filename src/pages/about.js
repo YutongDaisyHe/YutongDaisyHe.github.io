@@ -20,16 +20,13 @@ const About = () => (
                     <div className="col-12 col-md-6 about-me">
                         <h2 className="about-header">Hi, I'm Yutong (Daisy).</h2>
                         <p className="justified-text">
-                            I’m a software engineer with a diverse background in education and technology, currently pursuing a Master of Science in Computer Science at Northeastern University.
+                            I’m a software engineer with a Master of Science in Computer Science from Northeastern University and a passion for building reliable, user-centered applications. Currently, I’m a Web Developer Intern at the Museum of Science, where I develop and maintain web features using Drupal, PHP, and JavaScript to enhance educational content delivery.
                         </p>
                         <p className="justified-text">
-                            I have hands-on experience with Java, Python, SQL, JavaScript, TypeScript, C, and R. I’ve worked with both SQL and NoSQL databases, including PostgreSQL, MySQL, and MongoDB, and have built full-stack web and mobile applications. I'm an AWS Certified Cloud Practitioner with experience deploying microservices, working with containerized environments, and implementing CI/CD pipelines. I’m also proficient in object-oriented design, Agile methodologies, and version control with Git.
+                            Previously, I interned at IpserLab, a startup where I was promoted to Intern Development Team Lead. I contributed to both front-end and back-end systems using React, Java, and PostgreSQL. Earlier in my career, I was a tenured public school teacher, where I founded and led a Mandarin program for grades 6–12 — an experience that strengthened my leadership, communication, and adaptability.
                         </p>
                         <p className="justified-text">
-                            Previously, I was a tenured public school teacher in New York, where I founded and expanded a Mandarin program for grades 6–12. That experience sharpened my leadership, organization, and communication skills—strengths I now bring to engineering teams.
-                        </p>
-                        <p className="justified-text">
-                            I’m passionate about solving real-world problems through clean, thoughtful code and excited to contribute to innovative projects across industries—from cloud infrastructure to AI-powered tools.
+                            My technical background spans full-stack development, cloud platforms, and Agile workflows. I enjoy creating practical, scalable solutions that make a meaningful impact.
                         </p>
                     </div>
                 </section>
